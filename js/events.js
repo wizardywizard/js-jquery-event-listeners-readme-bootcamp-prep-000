@@ -31,7 +31,6 @@ function submitIt(){
     alert('Your form is going to be submitted now.');
 =======
     alert('your form is going to be submitted now.');
->>>>>>> 4a89829b2c09644eadcc78e2b745b1695a95b5c4
   }
   })
 }

@@ -7,7 +7,7 @@ $(document).ready(function(){
 });
 
 function getIt(){
-  document.addEventListener('click',function() {
+  $(document).on('click',function() {
     alert('Hey!')
 })}
 function frameIt(){

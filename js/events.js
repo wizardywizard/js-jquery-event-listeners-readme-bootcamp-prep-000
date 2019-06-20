@@ -16,7 +16,7 @@ function frameIt(){
 function pressIt(){
   document.addEventListener('keydown',function(key){
     if(key.which==71){
-    alert('G key was pressed');
+    window.alert('G key was pressed');
     }
   })
 }

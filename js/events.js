@@ -14,9 +14,9 @@ function frameIt(){
    $('img').addClass('tasty')
 }
 function pressIt(){
-  document.addEventListener('keydown',function(key){
+  $(document).on('keydown',function(key){
     if(key.which==71){
-    window.alert('G key was pressed');
+    alert('G key was pressed');
     }
   })
 }

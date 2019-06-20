@@ -7,23 +7,24 @@ $(document).ready(function(){
 });
 
 function getIt(){
-  document.addEventListener('click',function() {
+  $(document).on('click',function() {
     alert('Hey!')
 })}
 function frameIt(){
+  $('img').on('load',function(){
    $('img').addClass('tasty')
+  });
 }
 function pressIt(){
-  document.addEventListener('keydown',function(key){
+  $(document).on('keydown',function(key){
     if(key.which==71){
     alert('G key was pressed');
     }
   })
 }
 function submitIt(){
-  document.addEventListener('submit',function(){
-  if ($( "input:first" ).val() === "correct") {
+  $('form').on('submit',function(){
     alert('Your form is going to be submitted now.');
-  }
+    return;
   })
 }
